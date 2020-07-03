@@ -1,3 +1,8 @@
+Originally written by Adam Wilson...
+
+# Compiling on Windows 64-bit
+Download the Max 8 sdk, and copy the folder factorOracle at repo\windows\source to max-sdk\source. Compile using Visual Studio 2013. 
+
 # factorOracle
 C source for the *factorOracle* Max external.
 
