@@ -26,9 +26,6 @@
 
 // NOTE: This is an alpha version still under development. There may be bugs.
 
-
-
-
 #include "ext.h"
 #include "ext_obex.h"
 #include "ext_systhread.h"
@@ -36,8 +33,7 @@
 #include "ext_path.h"
 #include "ext_sysfile.h"
 
-
-
+#define snprintf _snprintf;
 
 typedef struct _state
 {
